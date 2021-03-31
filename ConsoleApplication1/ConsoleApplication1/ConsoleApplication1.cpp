@@ -2,10 +2,15 @@
 //
 
 #include <iostream>
+#include "mircea.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    // completeaza valoarea lui x pentru a iti doedi identitatea
+    int x = 0;
+   
+    std::cout << "Salut rares ";
+    confirma_identitatea(x);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
